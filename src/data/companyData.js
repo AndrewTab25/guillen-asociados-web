@@ -43,14 +43,14 @@ export const companyData = {
     {
       id: "nacionalizacion",
       title: "Nacionalización de Cargas",
-      desc: "Procesos de nacionalización en 2 a 3 días. Reducción de costos en gestión externa.",
+      desc: "Procesos de nacionalización en 2 a 3 días desde la relocalización de la carga. Reducción de costos en gestión externa.",
       icon: "Clock",
       highlight: "2 a 3 días"
     },
     {
       id: "fletes",
       title: "Fletes Internacionales",
-      desc: "Gestión de fletes para importaciones y exportaciones a nivel mundial.",
+      desc: "Gestión de fletes marítimos, aéreos o terrestres para importaciones y exportaciones a nivel mundial.",
       icon: "Globe",
       highlight: "Nivel mundial"
     },
