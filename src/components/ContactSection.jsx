@@ -51,7 +51,7 @@ const contactMembers = [
     avatarGradient: 'from-emerald-600 via-emerald-700 to-[#006e42]',
     accentColor: 'border-emerald-500 shadow-xl shadow-emerald-900/10 ring-4 ring-emerald-500/10',
     horario: 'Atención Operativa 24/7',
-    descripcion: 'Desaduanamiento express en 2 a 3 días hábiles, trámites SENIAT, booking aéreo y marítimo para Maiquetía y Puerto Cabello.',
+    descripcion: 'Desaduanamiento express en 2 a 3 días hábiles (después de la relocalización de la carga), trámites SENIAT, booking aéreo y marítimo para Maiquetía y Puerto Cabello.',
     btnLabel: 'Contactar a Francis Lugo',
     isPrincipal: true
   },

@@ -139,7 +139,7 @@ export const Hero = () => {
                   </span>
                 </div>
                 <h3 className="text-lg font-display font-bold text-[#0a2336] mt-1">
-                  Cotizar Operación Aduanal
+                  Cotizar Operación Logística
                 </h3>
                 <p className="text-xs text-slate-600 mt-0.5">
                   Complete los datos y se abrirá WhatsApp con la solicitud formateada.

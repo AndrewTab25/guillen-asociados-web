@@ -5,7 +5,7 @@ export const companyData = {
   
   about: {
     title: "¿Quiénes somos?",
-    summary: "Guillén Corona & Asociados, C.A. es un agente aduanal con más de 15 años de experiencia. Nos enfocamos en el agenciamiento, nacionalización, consolidación y logística.",
+    summary: "Guillén Corona & Asociados, C.A. es un agente aduanal con más de 15 años de experiencia. Nos enfocamos en el agenciamiento, nacionalización y logística integral.",
     description: "Brindamos soluciones confiables, optimizamos la cadena de suministro y mitigamos riesgos, asegurando siempre el estricto cumplimiento de las normativas legales y convenios internacionales.",
     pillars: [
       {

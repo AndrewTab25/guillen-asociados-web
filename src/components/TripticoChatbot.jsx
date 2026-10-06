@@ -44,7 +44,7 @@ export const TripticoChatbot = ({ isOpen, onClose }) => {
     }
 
     if (q.includes('flete') || q.includes('aereo') || q.includes('aéreo') || q.includes('maritimo') || q.includes('marítimo') || q.includes('terrestre') || q.includes('multimodal')) {
-      return 'Gestionamos fletes internacionales para importaciones y exportaciones a nivel mundial, articulando transporte multimodal aéreo, marítimo (FCL/LCL) y terrestre con seguimiento permanente.';
+      return 'Gestionamos fletes internacionales para importaciones y exportaciones a nivel mundial, articulando transporte multimodal aéreo, marítimo (FCL - Contenedor Completo) y terrestre con seguimiento permanente.';
     }
 
     if (q.includes('broker') || q.includes('trading') || q.includes('materia') || q.includes('mercado')) {
@@ -56,7 +56,7 @@ export const TripticoChatbot = ({ isOpen, onClose }) => {
     }
 
     if (q.includes('quienes') || q.includes('empresa') || q.includes('experiencia') || q.includes('años')) {
-      return 'Guillén Corona & Asociados, C.A. (RIF J-07591163-6) es un agente aduanal con más de 15 años de experiencia, enfocado en agenciamiento, nacionalización, consolidación y logística integral.';
+      return 'Guillén Corona & Asociados, C.A. (RIF J-07591163-6) es un agente aduanal con más de 15 años de experiencia, enfocado en agenciamiento, nacionalización y logística integral.';
     }
 
     return 'Gracias por su consulta. Coordinamos operaciones aduanales en 2 a 3 días, fletes internacionales y descarga de buques. Si desea una cotización formal, puede hacer clic en "Continuar en WhatsApp" para contactar con Francis Lugo.';

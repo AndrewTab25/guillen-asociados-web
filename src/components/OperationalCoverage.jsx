@@ -27,18 +27,18 @@ export const OperationalCoverage = () => {
     },
     {
       title: "La Guaira",
-      type: "Aduana Principal Marítima",
-      desc: "Nacionalización de cargas y coordinación de despachos para la región central y capital.",
+      type: "Aduana Marítima (Alianza Estratégica)",
+      desc: "Coordinación e intermediación aduanal a través de aliados estratégicos para despachos de la región central y capital.",
       icon: Anchor,
-      badge: "Desaduanamiento Central",
+      badge: "Alianza Estratégica",
       animation: "waves"
     },
     {
       title: "Maiquetía",
-      type: "Aduana Aérea Principal",
-      desc: "Recepción y nacionalización express de carga aérea internacional, paquetería crítica y repuestos de urgencia.",
+      type: "Aduana Aérea (Alianza Estratégica)",
+      desc: "Intermediación y coordinación express de carga aérea internacional, repuestos y suministros mediante aliados en Maiquetía.",
       icon: Plane,
-      badge: "Flete Aéreo Express",
+      badge: "Alianza Aérea Express",
       animation: "plane"
     },
     {

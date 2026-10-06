@@ -18,7 +18,7 @@ export const QuoteModal = ({ isOpen, onClose }) => {
     const serviceNames = {
       nacionalizacion: 'Nacionalización de Carga (2 a 3 días)',
       aereo: 'Flete Aéreo Express Internacional',
-      maritimo: 'Flete Marítimo (FCL / LCL)',
+      maritimo: 'Flete Marítimo (FCL - Contenedor Completo)',
       buque: 'Descarga de Buque & Granel',
       brokers: 'Trading & Brokers de Materias Primas'
     };
@@ -76,7 +76,7 @@ export const QuoteModal = ({ isOpen, onClose }) => {
               {[
                 { id: 'nacionalizacion', label: 'Nacionalización 2-3 Días', icon: ShieldCheck },
                 { id: 'aereo', label: 'Flete Aéreo Express', icon: Plane },
-                { id: 'maritimo', label: 'Flete Marítimo FCL/LCL', icon: Ship },
+                { id: 'maritimo', label: 'Flete Marítimo FCL', icon: Ship },
                 { id: 'buque', label: 'Descarga de Buque', icon: Anchor },
                 { id: 'terrestre', label: 'Tránsito Terrestre', icon: Truck },
               ].map((item) => {

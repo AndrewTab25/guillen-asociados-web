@@ -16,7 +16,7 @@ export const MultimodalScrollytelling = ({ onOpenQuote }) => {
       highlightLabel: "Tiempo de Tránsito Aéreo Express",
       description: "Gestionamos fletes aéreos comerciales y vuelos chárter especializados para mercancías de alto valor, repuestos industriales de urgencia y suministros médicos que no admiten demoras.",
       points: [
-        "Vuelos chárter y espacio consolidado en aerolíneas de primer nivel",
+        "Vuelos chárter y espacio prioritario en aerolíneas de primer nivel",
         "Manejo de mercancía peligrosa (DGR) y control de temperatura",
         "Despacho y recepción inmediata en terminales aéreas internacionales",
         "Trazabilidad satelital permanente del manifiesto aéreo"
@@ -35,7 +35,7 @@ export const MultimodalScrollytelling = ({ onOpenQuote }) => {
       description: "Operaciones integrales de atraque y descarga directa de buques en muelle. Supervisión continua de estiba, tolvas para carga a granel seca o líquida y coordinación de patios de contenedores.",
       points: [
         "Operaciones directas de descarga de buques a granel y carga suelta",
-        "Fletes marítimos FCL (Contenedor Completo) y LCL (Carga Consolidada)",
+        "Fletes marítimos FCL (Contenedor Completo) de importación y exportación",
         "Booking y enlace directo con las principales navieras globales",
         "Supervisión física de carga y custodia en zona portuaria"
       ],

@@ -21,7 +21,7 @@ export const ServicesSection = () => {
 
   const filteredServices = companyData.servicios.filter(srv => {
     if (filter === 'todos') return true;
-    if (filter === 'aduanas') return srv.id === 'nacionalizacion' || srv.id === 'atencion-personalizada';
+    if (filter === 'aduanas') return srv.id === 'nacionalizacion' || srv.id === 'import-export' || srv.id === 'atencion-personalizada';
     if (filter === 'fletes') return srv.id === 'fletes' || srv.id === 'import-export';
     if (filter === 'operaciones') return srv.id === 'descarga-buque' || srv.id === 'brokers';
     return true;
@@ -58,7 +58,7 @@ export const ServicesSection = () => {
         <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
           {[
             { id: 'todos', label: 'Todos los Servicios (06)' },
-            { id: 'aduanas', label: 'Aduanas & Planta' },
+            { id: 'aduanas', label: 'Importación o Exportación' },
             { id: 'fletes', label: 'Fletes & Comercio Exterior' },
             { id: 'operaciones', label: 'Buques & Trading' },
           ].map((item) => (
