@@ -57,7 +57,7 @@ export const Footer = () => {
               <li><span>Importación y Exportación</span></li>
               <li><span>Descarga de Buque (Granel y General)</span></li>
               <li><span>Brokers & Trading</span></li>
-              <li><span>Atención en Planta y Puerto</span></li>
+              <li><span>Atención Especializada</span></li>
             </ul>
           </div>
 

@@ -77,10 +77,10 @@ export const companyData = {
     },
     {
       id: "atencion-personalizada",
-      title: "Atención Personalizada",
-      desc: "Booking, seguimiento y procesos continuos en planta y zona portuaria.",
+      title: "Atención Especializada",
+      desc: "Booking, asesoría aduanal continua y seguimiento personalizado para cada cliente.",
       icon: "UserCheck",
-      highlight: "Planta y Puerto"
+      highlight: "Atención Especializada"
     }
   ],
 

@@ -50,7 +50,7 @@ export const ServicesSection = () => {
             Nuestros Servicios
           </h2>
           <p className="mt-3 text-base text-slate-700">
-            Agenciamiento aduanal, logística multimodal y coordinación especializada en planta y puerto.
+            Agenciamiento aduanal, logística multimodal y atención especializada en cada operación.
           </p>
         </div>
 

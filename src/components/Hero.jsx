@@ -175,7 +175,7 @@ export const Hero = () => {
                     <option value="Importación y Exportación">Importación y Exportación</option>
                     <option value="Descarga de Buque (Carga General o Granel)">Descarga de Buque (Carga General o Granel)</option>
                     <option value="Brokers & Trading de Materias Primas">Brokers & Trading de Materias Primas</option>
-                    <option value="Atención Personalizada en Planta y Puerto">Atención Personalizada en Planta y Puerto</option>
+                    <option value="Atención Especializada">Atención Especializada</option>
                   </select>
                 </div>
 
