@@ -34,11 +34,11 @@ export const OperationalCoverage = () => {
       animation: "waves"
     },
     {
-      title: "Maiquetía",
-      type: "Aduana Aérea (Alianza Estratégica)",
-      desc: "Intermediación y coordinación express de carga aérea internacional, repuestos y suministros mediante aliados en Maiquetía.",
+      title: "Valencia & Maiquetía",
+      type: "Aduana Aérea de Valencia & Maiquetía",
+      desc: "Nacionalización express de carga aérea internacional, repuestos críticos e insumos en la Aduana Aérea de Valencia y conexiones en Maiquetía.",
       icon: Plane,
-      badge: "Alianza Aérea Express",
+      badge: "Aduana Aérea",
       animation: "plane"
     },
     {
@@ -136,7 +136,7 @@ export const OperationalCoverage = () => {
             Cobertura en Principales Puertos y Aeropuertos
           </h2>
           <p className="mt-3 text-base text-slate-700">
-            Manejo y gestión de cargas terrestres, aéreas y marítimas con seguimiento riguroso en zona portuaria y planta.
+            Manejo y gestión de cargas terrestres, aéreas y marítimas con seguimiento riguroso en zona portuaria, aduana aérea de Valencia y planta.
           </p>
         </div>
 
@@ -358,7 +358,7 @@ export const OperationalCoverage = () => {
             <div className="mt-8 pt-5 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-300">
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
-                <span>Especialistas en agenciamiento aduanal, logística multimodal y coordinación continua en planta y puerto.</span>
+                <span>Especialistas en agenciamiento aduanal y logística multimodal.</span>
               </div>
               <span className="text-slate-400 text-[11px]">
                 Guillén Corona & Asociados • RIF: J-07591163-6

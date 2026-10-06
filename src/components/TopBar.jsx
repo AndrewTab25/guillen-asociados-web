@@ -36,7 +36,7 @@ export const TopBar = () => {
           </div>
           <span className="text-slate-600 hidden lg:inline">•</span>
           <span className="text-slate-300 text-[11px] hidden lg:inline">
-            Puerto Cabello • La Guaira • Maiquetía
+            Puerto Cabello • Valencia • La Guaira • Maiquetía
           </span>
         </div>
 
