@@ -88,13 +88,13 @@ export const ContactSection = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    const text = `*SOLICITUD DE CONTACTO WEB - GUILLÉN CORONA & ASOCIADOS*\n\n` +
+    const text = `*SOLICITUD DE COTIZACIÓN WEB - GUILLÉN CORONA & ASOCIADOS*\n\n` +
       `• *Nombre:* ${form.nombre}\n` +
       `• *Empresa:* ${form.empresa || 'Particular'}\n` +
       `• *Teléfono / WhatsApp:* ${form.telefono}\n` +
       `• *Servicio:* ${form.servicio}\n` +
       `• *Detalles de la Carga:* ${form.mensaje}\n\n` +
-      `Hola Francis Lugo (Gerencia de Operaciones), solicito atención y asesoría sobre este requerimiento.`;
+      `Hola equipo de Ventas, solicito cotización formal y asesoría para este requerimiento.`;
 
     window.open(`https://wa.me/584143495873?text=${encodeURIComponent(text)}`, '_blank');
   };
@@ -260,13 +260,13 @@ export const ContactSection = () => {
         <div className="bg-white rounded-3xl border border-[#cbe4d7] p-8 sm:p-12 max-w-4xl mx-auto shadow-sm">
           <div className="border-b border-[#e2efe8] pb-5 mb-6">
             <span className="text-xs font-bold text-[#006e42] uppercase tracking-wider bg-[#e4f4ec] px-2.5 py-1 rounded-md inline-block mb-2">
-              Mensajería Inmediata
+              Cotizaciones & Ventas
             </span>
             <h3 className="text-2xl font-display font-bold text-[#0a2336]">
-              Formulario de Consulta Directa
+              Formulario de Cotización y Consulta Directa
             </h3>
             <p className="text-sm text-slate-600 mt-1">
-              Envíenos los detalles de su carga o requerimiento y el equipo de Operaciones se comunicará de inmediato.
+              Envíenos los detalles de su carga o requerimiento y el equipo de Ventas se comunicará de inmediato.
             </p>
           </div>
 
@@ -353,7 +353,7 @@ export const ContactSection = () => {
               className="w-full py-3.5 px-6 rounded-xl bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-sm uppercase tracking-wider transition-all duration-200 shadow-md shadow-emerald-500/20 flex items-center justify-center gap-2 active:scale-98 cursor-pointer"
             >
               <MessageCircle size={18} className="fill-current" />
-              <span>Enviar por WhatsApp a Operaciones</span>
+              <span>Enviar por WhatsApp al Equipo de Ventas</span>
             </button>
           </form>
         </div>
