@@ -118,7 +118,7 @@ export const Hero = () => {
                 </div>
                 <div>
                   <h4 className="text-xs font-bold text-[#0a2336] uppercase tracking-wider">Multimodal</h4>
-                  <p className="text-xs text-slate-700 font-semibold">Aérea, Marítima, Tierra</p>
+                  <p className="text-xs text-slate-700 font-semibold">Aérea, Marítima, Terrestre</p>
                 </div>
               </div>
             </div>
