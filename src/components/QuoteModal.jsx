@@ -33,7 +33,7 @@ export const QuoteModal = ({ isOpen, onClose }) => {
       `📝 *Detalles adicionales:* ${details || 'Ninguno'}\n\n` +
       `Agradezco su atención y pronta propuesta tarifaria.`;
 
-    const url = `https://wa.me/584143495873?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/584244342775?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
     onClose();
   };
@@ -211,7 +211,7 @@ export const QuoteModal = ({ isOpen, onClose }) => {
           </button>
 
           <p className="text-center text-[11px] text-slate-500">
-            Conectará inmediatamente con Francis Lugo (Gerente de Operaciones de Guillén Corona & Asociados).
+            Conectará inmediatamente con el Equipo de Ventas de Guillén Corona & Asociados (0424-434.27.75 / 0424-100.08.80).
           </p>
         </form>
 

@@ -111,9 +111,15 @@ export const companyData = {
     },
     {
       cargo: "Analista de Operaciones",
+      nombre: "Elizabeth Reyes",
       email: "operaciones1@guillencoronayasociados.com",
       telefono: "+58 0414-597.06.17",
       telefonoRaw: "584145970617"
+    },
+    {
+      cargo: "Ventas y Cotizaciones",
+      telefono: "+58 0424-434.27.75 / 0424-100.08.80",
+      telefonoRaw: "584244342775"
     }
   ]
 };

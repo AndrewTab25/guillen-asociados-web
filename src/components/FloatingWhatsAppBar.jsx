@@ -14,8 +14,8 @@ export const FloatingWhatsAppBar = ({ onOpenQuote }) => {
 
   if (!visible) return null;
 
-  const quickWhatsAppUrl = `https://wa.me/584143495873?text=${encodeURIComponent(
-    "Hola Francis Lugo, me comunico desde la web de Guillén Corona & Asociados para solicitar una cotización inmediata de flete/aduanas."
+  const quickWhatsAppUrl = `https://wa.me/584244342775?text=${encodeURIComponent(
+    "Hola equipo de Ventas, me comunico desde la web de Guillén Corona & Asociados para solicitar una cotización inmediata de flete/aduanas."
   )}`;
 
   return (

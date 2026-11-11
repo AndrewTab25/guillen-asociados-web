@@ -58,21 +58,22 @@ const contactMembers = [
   {
     id: 'analista-operaciones',
     cargo: 'Analista de Operaciones',
+    nombre: 'Elizabeth Reyes',
     area: 'Mesa Técnica & Despacho Portuario',
     email: 'operaciones1@guillencoronayasociados.com',
     telefono: '+58 0414-597.06.17',
     telefonoRaw: '584145970617',
-    whatsappMsg: 'Hola, me comunico desde la página web de Guillén Corona & Asociados con el Analista de Operaciones.',
+    whatsappMsg: 'Hola Elizabeth Reyes, me comunico desde la página web de Guillén Corona & Asociados con el área de Operaciones.',
     Icon: UserCheck,
     badge: 'Mesa Técnica & Despacho',
     status: 'En Patio & Muelle',
     statusBg: 'bg-teal-50 text-teal-700 border-teal-200',
-    avatarLetters: 'AO',
+    avatarLetters: 'ER',
     avatarGradient: 'from-teal-700 via-cyan-800 to-slate-800',
     accentColor: 'border-[#cbe4d7] hover:border-teal-500/50',
     horario: 'Operaciones en Puerto & Almacén',
     descripcion: 'Inspección física en patio, aforo aduanal, estatus de guías y coordinación de despacho custodiado a planta.',
-    btnLabel: 'Contactar Mesa Técnica',
+    btnLabel: 'Contactar a Elizabeth Reyes',
     isPrincipal: false
   }
 ];
@@ -96,7 +97,7 @@ export const ContactSection = () => {
       `• *Detalles de la Carga:* ${form.mensaje}\n\n` +
       `Hola equipo de Ventas, solicito cotización formal y asesoría para este requerimiento.`;
 
-    window.open(`https://wa.me/584143495873?text=${encodeURIComponent(text)}`, '_blank');
+    window.open(`https://wa.me/584244342775?text=${encodeURIComponent(text)}`, '_blank');
   };
 
   return (
@@ -258,16 +259,42 @@ export const ContactSection = () => {
 
         {/* Contact Form Section with clean styling */}
         <div className="bg-white rounded-3xl border border-[#cbe4d7] p-8 sm:p-12 max-w-4xl mx-auto shadow-sm">
-          <div className="border-b border-[#e2efe8] pb-5 mb-6">
-            <span className="text-xs font-bold text-[#006e42] uppercase tracking-wider bg-[#e4f4ec] px-2.5 py-1 rounded-md inline-block mb-2">
-              Cotizaciones & Ventas
-            </span>
-            <h3 className="text-2xl font-display font-bold text-[#0a2336]">
-              Formulario de Cotización y Consulta Directa
-            </h3>
-            <p className="text-sm text-slate-600 mt-1">
-              Envíenos los detalles de su carga o requerimiento y el equipo de Ventas se comunicará de inmediato.
-            </p>
+          <div className="border-b border-[#e2efe8] pb-5 mb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div>
+              <span className="text-xs font-bold text-[#006e42] uppercase tracking-wider bg-[#e4f4ec] px-2.5 py-1 rounded-md inline-block mb-2">
+                Cotizaciones & Ventas
+              </span>
+              <h3 className="text-2xl font-display font-bold text-[#0a2336]">
+                Formulario de Cotización y Consulta Directa
+              </h3>
+              <p className="text-sm text-slate-600 mt-1">
+                Envíenos los detalles de su carga o requerimiento y el equipo de Ventas se comunicará de inmediato.
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row md:flex-col gap-2 shrink-0 bg-[#f4f9f7] p-3.5 rounded-2xl border border-[#cce4d8]">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-800">
+                Teléfonos de Ventas:
+              </span>
+              <a
+                href="https://wa.me/584244342775?text=Hola%20equipo%20de%20Ventas%2C%20solicito%20cotizaci%C3%B3n%20y%20asesor%C3%ADa."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-xs font-bold text-[#0a2336] hover:text-emerald-700 transition-colors"
+              >
+                <Phone size={13} className="text-emerald-600 shrink-0" />
+                <span>0424-434.27.75</span>
+              </a>
+              <a
+                href="https://wa.me/584241000880?text=Hola%20equipo%20de%20Ventas%2C%20solicito%20cotizaci%C3%B3n%20y%20asesor%C3%ADa."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-xs font-bold text-[#0a2336] hover:text-emerald-700 transition-colors"
+              >
+                <Phone size={13} className="text-emerald-600 shrink-0" />
+                <span>0424-100.08.80</span>
+              </a>
+            </div>
           </div>
 
           <form onSubmit={handleFormSubmit} className="space-y-4">

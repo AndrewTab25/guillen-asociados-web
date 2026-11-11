@@ -22,9 +22,9 @@ export const Hero = () => {
       `• *Servicio:* ${formData.servicio}\n` +
       `• *Ruta:* ${formData.origen || 'Por coordinar'} ➔ ${formData.destino}\n` +
       `• *Tipo de Mercancía:* ${formData.tipoCarga}\n\n` +
-      `Hola Francis Lugo (Gerencia de Operaciones), me comunico a través del sitio web para solicitar cotización y tiempos de respuesta.`;
+      `Hola equipo de Ventas, me comunico a través del sitio web para solicitar cotización y tiempos de respuesta.`;
 
-    const url = `https://wa.me/584143495873?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/584244342775?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
 
@@ -72,7 +72,7 @@ export const Hero = () => {
             {/* CTAs */}
             <div className="flex flex-wrap items-center gap-3.5 pt-2">
               <a
-                href="https://wa.me/584143495873?text=Hola%20Francis%20Lugo%2C%20deseo%20solicitar%20asesor%C3%ADa%20y%20cotizaci%C3%B3n%20con%20Guill%C3%A9n%20Corona%20%26%20Asociados"
+                href="https://wa.me/584244342775?text=Hola%20equipo%20de%20Ventas%2C%20deseo%20solicitar%20asesor%C3%ADa%20y%20cotizaci%C3%B3n%20con%20Guill%C3%A9n%20Corona%20%26%20Asociados"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-sm shadow-md transition-all duration-200 active:scale-95"
@@ -241,7 +241,7 @@ export const Hero = () => {
                 </button>
 
                 <p className="text-center text-[10px] text-slate-600 pt-0.5">
-                  Atención directa con Francis Lugo (Gerente de Operaciones)
+                  Atención directa con el Equipo de Ventas (0424-434.27.75 / 0424-100.08.80)
                 </p>
               </form>
 

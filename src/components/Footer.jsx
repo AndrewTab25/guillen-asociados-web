@@ -64,9 +64,17 @@ export const Footer = () => {
           {/* Col 4: Contactos Operativos */}
           <div className="space-y-3">
             <h4 className="text-sm font-bold text-white uppercase tracking-wider">
-              Contacto Operativo
+              Contacto & Ventas
             </h4>
             <ul className="space-y-2.5 text-xs text-slate-300">
+              <li className="flex items-center gap-2">
+                <Phone size={14} className="text-emerald-400 shrink-0" />
+                <span>0424-434.27.75 (Ventas)</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone size={14} className="text-emerald-400 shrink-0" />
+                <span>0424-100.08.80 (Ventas)</span>
+              </li>
               <li className="flex items-center gap-2">
                 <Phone size={14} className="text-emerald-400 shrink-0" />
                 <span>+58 0414-349.58.73 (Operaciones)</span>
@@ -77,7 +85,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={14} className="text-emerald-400 shrink-0" />
-                <span>+58 0414-597.06.17 (Analista)</span>
+                <span>+58 0414-597.06.17 (Elizabeth Reyes - Analista)</span>
               </li>
               <li className="flex items-center gap-2 pt-1 text-slate-400">
                 <Mail size={14} className="text-sky-400 shrink-0" />

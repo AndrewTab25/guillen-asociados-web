@@ -15,8 +15,8 @@ export const ServicesSection = () => {
   };
 
   const handleServiceWhatsApp = (serviceTitle) => {
-    const text = `Hola Francis Lugo, me comunico desde la página web de Guillén Corona & Asociados para solicitar cotización y asesoría en: *${serviceTitle}*.`;
-    window.open(`https://wa.me/584143495873?text=${encodeURIComponent(text)}`, '_blank');
+    const text = `Hola equipo de Ventas, me comunico desde la página web de Guillén Corona & Asociados para solicitar cotización y asesoría en: *${serviceTitle}*.`;
+    window.open(`https://wa.me/584244342775?text=${encodeURIComponent(text)}`, '_blank');
   };
 
   const filteredServices = companyData.servicios.filter(srv => {

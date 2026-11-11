@@ -294,7 +294,7 @@ export const OperationalCoverage = () => {
 
               {/* Botón WhatsApp Directo */}
               <a
-                href="https://wa.me/584143495873?text=Hola%20Francis%20Lugo%2C%20tengo%20una%20carga%20por%20arribar%20y%20deseo%20coordinar%20su%20desaduanamiento"
+                href="https://wa.me/584244342775?text=Hola%20equipo%20de%20Ventas%2C%20tengo%20una%20carga%20por%20arribar%20y%20deseo%20coordinar%20su%20cotizaci%C3%B3n%20y%20desaduanamiento"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="shrink-0 inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-xs uppercase tracking-wider transition-all duration-200 shadow-lg hover:shadow-emerald-500/25 active:scale-95"

@@ -44,7 +44,7 @@ export const Navbar = () => {
           {/* Single Minimalist WhatsApp CTA */}
           <div className="hidden sm:flex items-center">
             <a
-              href="https://wa.me/584143495873?text=Hola%20Francis%20Lugo%2C%20deseo%20solicitar%20asesor%C3%ADa%20y%20cotizaci%C3%B3n%20aduanal"
+              href="https://wa.me/584244342775?text=Hola%20equipo%20de%20Ventas%2C%20deseo%20solicitar%20asesor%C3%ADa%20y%20cotizaci%C3%B3n%20aduanal"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs font-bold shadow-sm hover:shadow-md transition-all duration-200 active:scale-95"
@@ -114,7 +114,7 @@ export const Navbar = () => {
           </nav>
 
           <a
-            href="https://wa.me/584143495873?text=Hola%20Francis%20Lugo%2C%20deseo%20solicitar%20asesor%C3%ADa%20y%20cotizaci%C3%B3n%20aduanal"
+            href="https://wa.me/584244342775?text=Hola%20equipo%20de%20Ventas%2C%20deseo%20solicitar%20asesor%C3%ADa%20y%20cotizaci%C3%B3n%20aduanal"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMobileOpen(false)}

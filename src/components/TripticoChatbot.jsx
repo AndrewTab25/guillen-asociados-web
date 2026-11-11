@@ -51,15 +51,15 @@ export const TripticoChatbot = ({ isOpen, onClose }) => {
       return 'Nuestra división de Brokers brinda servicios de trading, comercialización de materias primas, estudios de mercado estratégicos y posicionamiento de marcas en el comercio exterior.';
     }
 
-    if (q.includes('contacto') || q.includes('francis') || q.includes('telefono') || q.includes('número') || q.includes('llamar')) {
-      return 'Puede comunicarse directamente con Francis Lugo (Gerente de Operaciones) al +58 0414-349.58.73 o con la Gerencia General al +58 0424-415.99.85.';
+    if (q.includes('contacto') || q.includes('francis') || q.includes('elizabeth') || q.includes('ventas') || q.includes('cotiza') || q.includes('telefono') || q.includes('número') || q.includes('llamar')) {
+      return 'Para cotizaciones y ventas puede comunicarse al 0424-434.27.75 o al 0424-100.08.80. Para Operaciones, con Francis Lugo (Gerente de Operaciones) al +58 0414-349.58.73, con Elizabeth Reyes (Analista de Operaciones) al +58 0414-597.06.17, o con la Gerencia General al +58 0424-415.99.85.';
     }
 
     if (q.includes('quienes') || q.includes('empresa') || q.includes('experiencia') || q.includes('años')) {
       return 'Guillén Corona & Asociados, C.A. (RIF J-07591163-6) es un agente aduanal con más de 15 años de experiencia, enfocado en agenciamiento, nacionalización y logística integral.';
     }
 
-    return 'Gracias por su consulta. Coordinamos operaciones aduanales en 2 a 3 días, fletes internacionales y descarga de buques. Si desea una cotización formal, puede hacer clic en "Continuar en WhatsApp" para contactar con Francis Lugo.';
+    return 'Gracias por su consulta. Coordinamos operaciones aduanales en 2 a 3 días, fletes internacionales y descarga de buques. Si desea una cotización formal, puede hacer clic en "Continuar en WhatsApp" para contactar con nuestro Equipo de Ventas (0424-434.27.75 / 0424-100.08.80).';
   };
 
   const handleSendMessage = (textToSend) => {
@@ -94,11 +94,11 @@ export const TripticoChatbot = ({ isOpen, onClose }) => {
   const handleExportToWhatsApp = () => {
     const lastUserQuery = messages.filter(m => m.sender === 'user').pop()?.text || 'Consulta de servicios aduanales';
     const text = `*CONSULTA ASISTENTE VIRTUAL - GUILLÉN CORONA & ASOCIADOS*\n\n` +
-      `Hola Francis Lugo (Gerencia de Operaciones), estuve consultando en la web sobre:\n\n` +
+      `Hola equipo de Ventas, estuve consultando en la web sobre:\n\n` +
       `👉 "${lastUserQuery}"\n\n` +
       `Por favor indíquenme asesoría y cotización. Gracias.`;
 
-    window.open(`https://wa.me/584143495873?text=${encodeURIComponent(text)}`, '_blank');
+    window.open(`https://wa.me/584244342775?text=${encodeURIComponent(text)}`, '_blank');
   };
 
   return (
